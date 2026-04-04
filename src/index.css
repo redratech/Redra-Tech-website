@@ -113,3 +113,15 @@
     background: linear-gradient(160deg, hsl(var(--neon-blue) / 0.06) 0%, transparent 40%, hsl(var(--neon-orange) / 0.04) 100%);
   }
 }
+
+/* NProgress Customization */
+#nprogress .bar {
+  background: linear-gradient(to right, hsl(var(--neon-blue)), hsl(var(--neon-orange))) !important;
+  height: 3px !important;
+  box-shadow: 0 0 10px hsl(var(--neon-blue) / 0.5), 0 0 5px hsl(var(--neon-orange) / 0.5) !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: hsl(var(--neon-blue)) !important;
+  border-left-color: hsl(var(--neon-blue)) !important;
+}

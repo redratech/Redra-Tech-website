@@ -5,6 +5,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import ScrollToTop from "./components/ScrollToTop";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import PageLoader from "./components/PageLoader";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import About from "./pages/About";
@@ -21,6 +22,7 @@ const App = () => (
       <TooltipProvider>
         <Sonner />
         <BrowserRouter>
+          <PageLoader />
           <ScrollToTop />
           <FloatingWhatsApp />
           <Layout>
