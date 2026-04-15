@@ -31,7 +31,7 @@ const testimonials = [
 
 const stats = [
   { value: "6+", label: "Projects Completed" },
-  { value: "4+", label: "Happy Clients" },
+  { value: "5+", label: "Happy Clients" },
   { value: "1+", label: "Years Experience" },
   { value: "99%", label: "Client Satisfaction" },
 ];
