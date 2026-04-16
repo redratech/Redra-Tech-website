@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import PageLoader from "./components/PageLoader";
 import Layout from "./components/Layout";
@@ -24,6 +25,7 @@ const App = () => (
         <BrowserRouter>
           <PageLoader />
           <ScrollToTop />
+          <ScrollToTopButton />
           <FloatingWhatsApp />
           <Layout>
             <Routes>
